@@ -1,4 +1,5 @@
 <?php 
+/*
 //to connect to database 
 $serverName = "192.168.0.100";  // Hostname given by DirectAdmin
 $userName   = "clearpr1_PrintingService"; // DB username
@@ -15,12 +16,12 @@ if (!$conn){
 else {
        // echo "Connection successfully"; 
     }
-
+*/
 ?>
 
 
 <?php 
-/*
+
 //to connect to database 
 $serverName = "localhost"; 
 $userName = "root";
@@ -36,5 +37,5 @@ if (!$conn){
 else {
        // echo "Connection successfully"; 
     }
-*/
+
 ?>

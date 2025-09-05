@@ -124,7 +124,7 @@
                 });
             });
 
-            // Set first size as active by default
+            // Set 2ed size as active by default
             if (sizeButtons.length > 0) {
                 sizeButtons[1].classList.add('active'); 
                 sizeInput.value = sizeButtons[1].textContent;

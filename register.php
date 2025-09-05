@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     mysqli_stmt_bind_param($stmt, "sss", $username, $userEmail, $password);
 
     if (mysqli_stmt_execute($stmt)) {
-        echo "New user added successfully, go to login.";
+      //  echo "New user added successfully, go to login.";
     } else {
         echo "Error: " . mysqli_error($conn);
     }

@@ -91,7 +91,8 @@
                 </div>
            
                  <!-- File submitting -->
-                 <input type="file" name="cusImg" required>
+                 <input type="file" name="cusImg" accept="image/*,application/pdf" required>
+
         
              <div class="createOrder">
               <button type="submit" name="placeOrder">Place Order</button>

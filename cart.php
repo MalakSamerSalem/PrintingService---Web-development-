@@ -60,10 +60,9 @@
                 $total += $subtotal;
 
                  echo '<tr>';
-                
-
+                 
                 $filePath = 'uploaded/' . $row['cusImg'];
-               $fileType = mime_content_type($filePath);
+                $fileType = mime_content_type($filePath);
 
                 echo "<td>";
                 if ($fileType === 'application/pdf') {

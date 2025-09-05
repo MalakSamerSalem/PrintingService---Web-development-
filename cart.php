@@ -60,7 +60,19 @@
                 $total += $subtotal;
 
                  echo '<tr>';
-                 echo "<td> <img src='uploaded/" . $row['cusImg'] . "' height='78.5px' width='97.5px'></td>";
+                
+
+                $filePath = 'uploaded/' . $row['cusImg'];
+               $fileType = mime_content_type($filePath);
+
+                echo "<td>";
+                if ($fileType === 'application/pdf') {
+                    echo "<img src='Assets/image/papers.png' height='78.5px' width='97.5px'>";
+                } else {
+                    echo "<img src='" . $filePath . "' height='78.5px' width='97.5px'>";
+                    }
+                echo "</td>";
+
 
                // echo '<td>' . $row['proName'] . '<br>Size: ' . $row['proSize'] . '<br>Color: ' . $row['proColor'] . '</td>';
                echo '<td>' . $row['proName'] . '<br>';

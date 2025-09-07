@@ -16,8 +16,8 @@ if (!$conn){
 else {
        // echo "Connection successfully"; 
     }
-*/
 
+*/
 ?>
 
 
@@ -38,5 +38,6 @@ if (!$conn){
 else {
        // echo "Connection successfully"; 
     }
+
 
 ?>

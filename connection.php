@@ -1,10 +1,10 @@
 <?php 
 /*
 //to connect to database 
-$serverName = "192.168.0.100";  // Hostname given by DirectAdmin
-$userName   = "clearpr1_PrintingService"; // DB username
-$password   = "PZBEuxXjgw2mfa3QXhhY";     // DB password
-$dbname     = "clearpr1_PrintingService"; // DB name
+$serverName = "localhost";      // Use localhost, not 192.168.0.100
+$userName   = "clearpr1_printingservice";
+$password   = "VQunS5KBCuUXPgSdddNY";
+$dbname     = "clearpr1_printingservice";
 
 //create connection
 $conn = mysqli_connect($serverName, $userName, $password, $dbname); 
@@ -17,6 +17,7 @@ else {
        // echo "Connection successfully"; 
     }
 */
+
 ?>
 
 

@@ -20,6 +20,7 @@ $cusID = $_SESSION['cusID'];
 <html lang="en">
 
 <head>
+<!-- <meta name="google-site-verification" content="zP3LcJc5wwKlPOnOTR7oIUennKpwFe3fHzM0QEFHDqs" />  -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>

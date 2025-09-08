@@ -1,5 +1,5 @@
 <?php 
-
+/*
 //to connect to database 
 $serverName = "panel.freehosting.com";      // Use localhost, not 192.168.0.100
 $userName   = "clearpr1_printingservice";
@@ -17,12 +17,12 @@ else {
        // echo "Connection successfully"; 
     }
 
-
+*/
 ?>
 
 
 <?php 
-/*
+
 //to connect to database 
 $serverName = "localhost"; 
 $userName = "root";
@@ -38,6 +38,6 @@ if (!$conn){
 else {
        // echo "Connection successfully"; 
     }
-*/
+
 
 ?>
